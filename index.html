@@ -11,7 +11,7 @@
         <meta keywords="Danny, Tacilla Cholan, Ingenieria WEB, UNC, Sistemas">
         <meta name ="author"  content="Danny Tacilla Cholan">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="" type="text/css">
+        <link rel="stylesheet" href="css/estilos.css" type="text/css">
         <link rel="shortcut icon" href="icon.png" type="image/vnb.microsoft.icon">
         <script type="text/javascript" src=""></script>
 
@@ -20,29 +20,39 @@
     <body>
         <span id="TOP"></span>
 
-        <header>
-            <nav>
+        <header class="cabecera">
+            <nav class="menu">
                 <ul>
-                    <a href="index.html"><li>INICIO</li></a>
+                    <a href="index.html" class="activo"><li>INICIO</li></a>
                     <a href="contacto.html" target="_blank"><li>CONTACTO</li></a>
                     <a href="lugares.html" target="_blank"><li>LUGARES TURISTICOS</li></a>
                 </ul>
             </nav>
-            <img src="img/logo.png" alt="mi logo" width="150px" height="150px">
+            <div class="imgLogo">
+               <img  src="img/logo.png" alt="mi logo" width="150px" height="150px">     
+            </div>
+
+            
             
 
         </header>
         <section>
             <article>
-                <h1>INFORMACION PERSONAL </h1><br>
-                <img src="img/foto.jpg" alt="foto personal" width="200" height="200"><br>
-
-                <p>Mi nombre es Danny Tacilla Cholan , Estudio Ingenieria de Sistemas en la Universidad Nacional de Cajamarca, bueno mi Hobby es Jugar Futbol, Mirar peliculas (en especial Series), Dormir y Programar o estudiar algun lenguaje de programacion. Soy de Cajamarca actualmente tengo la edad de 25 años y mis metas a futuro es terminar la carrera de Ing. de Sistemas luego hacer una especialidad seguir trabajando en lo que mas me gusta que es Desarrollo Web. <strong>En la siguiente tabla voy a detallar las horas que dedico a mis Hobby's:</strong> </p><br>
+                <h1>INFORMACION PERSONAL </h1>
+                <hr class="hr">
+                <div class="foto">
+                    <img src="img/foto.jpg" alt="foto personal" width="200" height="200">
+                </div>
+                
+                <div class="info" >
+                    <p>Mi nombre es Danny Tacilla Cholan , Estudio Ingenieria de Sistemas en la Universidad Nacional de Cajamarca, bueno mi Hobby es Jugar Futbol, Mirar peliculas (en especial Series), Dormir y Programar o estudiar algun lenguaje de programacion. Soy de Cajamarca actualmente tengo la edad de 25 años y mis metas a futuro es terminar la carrera de Ing. de Sistemas luego hacer una especialidad seguir trabajando en lo que mas me gusta que es Desarrollo Web. <strong>En la siguiente tabla voy a detallar las horas que dedico a mis Hobby's:</strong> </p><br>
+                </div>    
+                
                 
             </article>
-            <article>
+           <!-- <article>
                 
-                <table border="1">
+                <table border="1" >
                     <caption>Hobby's</caption>
                     <thead>
                         <th>Nombre de Hobby</th>
@@ -66,11 +76,14 @@
                         
                 </table>
 
-            </article><br>
+            </article><br>-->
             <article>
                 <h2>Redes Sociales</h2>
-                <a href="https://www.facebook.com/DannyTacilla" target="_blank"><img src="img/fb.png" alt="" width="50" height="50"></a> 
-                <a href="https://www.instagram.com/dannytacilla/" target="_blank"><img src="img/ins.png" alt="" width="50" height="50"></a>
+                <div class="redes">
+                    <a href="https://www.facebook.com/DannyTacilla" target="_blank"><img src="img/fb.png" alt="" width="50" height="50"></a> 
+                 <a href="https://www.instagram.com/dannytacilla/" target="_blank"><img src="img/ins.png" alt="" width="50" height="50"></a>
+                </div>
+                
 
 
             </article>
@@ -78,9 +91,9 @@
         <aside>
             <article></article>
         </aside>
-        <footer>
+        <footer class="pie">
             <a href="#TOP">Ir Arriba</a> <br><br>
-            <span>Danny Tacilla Cholan &copy; Todos los derechos reservados</span>
+            <span class="footer">Danny Tacilla Cholan &copy; Todos los derechos reservados</span>
 
         </footer>
     </body>
